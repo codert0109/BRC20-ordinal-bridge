@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@okxweb3/coin-bitcoin": "^1.0.8-beta.11",
+    "@okxweb3/crypto-lib": "^1.0.1",
+    "@unisat/wallet-sdk": "^1.1.2",
+    "axios": "^1.6.7",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.10.0",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.3.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "siwe": "^2.1.4",
+    "web3": "^1.7.0"
+  }
+}
